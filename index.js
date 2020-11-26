@@ -2,7 +2,8 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 // array of questions for user
-const questions = inquirer.prompt([
+// const questions =
+inquirer.prompt([
   {
     type: "input",
     message: "What is your GitHub UserName?",
@@ -45,19 +46,26 @@ const questions = inquirer.prompt([
       "What Does The User Need To Know About Using Contributing To This Repo?",
     name: "contribution",
   },
-]);
+])
 
-// function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile("README.md", fileName, data, (err) =>
-    err ? console.log(err) : console.log("RADME.md Created")
+.then((fileName, data) => {
+
+  fs.writeFile("README.md", JSON.stringify(fileName, data, null, '\t'), (err) =>
+    err ? console.log(err) : console.log('RADME.md Created!')
   );
-}
+});
 
-// function to initialize program
-function init() {
-  writeToFile(fileName, data);
-}
+// // function to write README file
+// function writeToFile(fileName, data) {
+//   fs.writeFile("README.md", fileName, data, (err) =>
+//     err ? console.log(err) : console.log("RADME.md Created")
+//   );
+// }
 
-// function call to initialize program
-init();
+// // function to initialize program
+// function init() {
+//   writeToFile(fileName, data);
+// }
+
+// // function call to initialize program
+// init();

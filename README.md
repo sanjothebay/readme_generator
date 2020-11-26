@@ -1,5 +1,1 @@
-# readme_generator_tech_monterrey_hw
-
-https://sanjothebay.github.io/readme_generator_tech_monterrey_hw/
-
-https://github.com/sanjothebay/readme_generator_tech_monterrey_hw
+{"username":"tets","email":"rgf","projectsName":"ewrffgbn bcbfd","description":"MIT","commandDependencies":"frffgfbfvgdfs","commandTest":"eregffbfvd","RepoKnowledge":"efdghghgbfdeqw","contribution":"ewrtghgg"}
