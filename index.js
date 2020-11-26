@@ -39,6 +39,11 @@ const questions = inquirer.prompt([
         message: "What Does The User Need To Know About Using This Repo?",
         name: "RepoKnowledge",
       },
+      {
+        type: "input",
+        message: "What Does The User Need To Know About Using Contributing To This Repo?",
+        name: "contribution",
+      },
       
 
 
