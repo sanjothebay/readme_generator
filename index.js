@@ -9,6 +9,11 @@ const questions = inquirer.prompt([
         message: "What is your GitHub UserName?",
         name: "username",
       },
+      {
+        type: "input",
+        message: "What is your Email Address?",
+        name: "username",
+      },
 
 
 
