@@ -24,6 +24,11 @@ const questions = inquirer.prompt([
         message: "Please Write A Short Description Of Your Project.",
         choices: ['MIT', 'APACHE', 'GPL 3.0','BSD 3', 'OTHER', 'NONE',],
       },
+      {
+        type: "input",
+        message: "What Command Should Be Run To Install Dependencies ",
+        name: "Command",
+      },
 
 
 
