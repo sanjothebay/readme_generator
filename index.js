@@ -20,9 +20,9 @@ const questions = inquirer.prompt([
         name: "projectsName",
       },
       {
-        type: "input",
+        type: "list",
         message: "Please Write A Short Description Of Your Project.",
-        name: "description",
+        choices: ['MIT', 'APACHE', 'GPL 3.0','BSD 3', 'OTHER', 'NONE',],
       },
 
 
