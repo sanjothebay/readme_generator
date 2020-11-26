@@ -27,12 +27,17 @@ const questions = inquirer.prompt([
       {
         type: "input",
         message: "What Command Should Be Run To Install Dependencies?",
-        name: "Command",
+        name: "commandDependencies",
       },
       {
         type: "input",
         message: "What Command Should Be Run To Test?",
-        name: "Command",
+        name: "commandTest",
+      },
+      {
+        type: "input",
+        message: "What Does The User Need To Know About Using This Repo?",
+        name: "RepoKnowledge",
       },
       
 
