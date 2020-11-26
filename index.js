@@ -26,9 +26,15 @@ const questions = inquirer.prompt([
       },
       {
         type: "input",
-        message: "What Command Should Be Run To Install Dependencies ",
+        message: "What Command Should Be Run To Install Dependencies?",
         name: "Command",
       },
+      {
+        type: "input",
+        message: "What Command Should Be Run To Test?",
+        name: "Command",
+      },
+      
 
 
 
