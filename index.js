@@ -12,12 +12,17 @@ const questions = inquirer.prompt([
       {
         type: "input",
         message: "What is your Email Address?",
-        name: "username",
+        name: "email",
       },
       {
         type: "input",
         message: "What is your Your Project`s Name?",
-        name: "username",
+        name: "projectsName",
+      },
+      {
+        type: "input",
+        message: "Please Write A Short Description Of Your Project.",
+        name: "description",
       },
 
 
