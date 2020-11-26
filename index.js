@@ -1,7 +1,23 @@
-// array of questions for user
-const questions = [
+const inquirer = require("inquirer");
+const fs = require("fs");
 
-];
+
+// array of questions for user
+const questions = inquirer.prompt([
+    {
+        type: "input",
+        message: "What is your GitHub UserName?",
+        name: "username",
+      },
+
+
+
+]);
+
+
+
+
+
 
 // function to write README file
 function writeToFile(fileName, data) {
