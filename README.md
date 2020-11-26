@@ -1,1 +1,0 @@
-{"username":"tets","email":"rgf","projectsName":"ewrffgbn bcbfd","description":"MIT","commandDependencies":"frffgfbfvgdfs","commandTest":"eregffbfvd","RepoKnowledge":"efdghghgbfdeqw","contribution":"ewrtghgg"}
