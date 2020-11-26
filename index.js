@@ -50,10 +50,10 @@ const questions = inquirer.prompt([
 function writeToFile(fileName, data) {
     fs.writeFile("README.md", fileName, data, (err) =>
       err ? console.log(err) : console.log("Success")
-}
+    )};
 
-// function to initialize program
-function init() {}
+// // function to initialize program
+// function init() {}
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
