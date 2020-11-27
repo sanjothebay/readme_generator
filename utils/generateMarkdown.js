@@ -1,7 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
+  return `# ${data.projectsName}
+  ### ${data.username}
+   ## ${data.email}
+   New Repo 
 `;
 }
 

@@ -1,7 +1,7 @@
 // Exporting the function / Exporting the package
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("../Develop/utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 // const questions =
@@ -51,25 +51,24 @@ inquirer
     },
   ])
 
-  .then((fileName, data) => {
+  .then((data) => {
    // const README = `${fileName, data.toLowerCase().split(' ').join('')}.json`;
-
-    fs.writeFile("README.md", JSON.stringify(fileName, data), (err) =>
-      err ? console.log(err) : console.log("RADME.md Created!")
-    );
-    generateMarkdown(data);
+   console.log(data)
+    // fs.writeFile( JSON.stringify("README.md", generateMarkdown(data)), (err) =>
+    //   err ? console.log(err) : console.log("RADME.md Created!")
+    // );
+    const generateMarkdownResponse = generateMarkdown(data)
+    writeToFile("README.md", ...generateMarkdownResponse)
   });
 
+    const writeToFile = (fileName, data) => {
+      fs.writeFileSync(fileName, data)
+    };
 
 
-  
-// function to write README file
-// const writeToFile = (fileName, data) => {
-//   fs.writeFile("README.md", JSON.stringify(fileName, data,), (err) =>
-//     err ? console.log(err) : console.log("RADME.md Created")
-//   );
-// }
-// function to initialize program
+
+
+//function to initialize program
 // function init() {
 
 //   generateMarkdown(data)
