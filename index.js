@@ -52,21 +52,18 @@ inquirer
   ])
 
   .then((data) => {
-   // const README = `${fileName, data.toLowerCase().split(' ').join('')}.json`;
-   console.log(data)
+    // const README = `${fileName, data.toLowerCase().split(' ').join('')}.json`;
+    console.log(data);
     // fs.writeFile( JSON.stringify("README.md", generateMarkdown(data)), (err) =>
     //   err ? console.log(err) : console.log("RADME.md Created!")
     // );
-    const generateMarkdownResponse = generateMarkdown(data)
-    writeToFile("README.md", ...generateMarkdownResponse)
+    const generateMarkdownResponse = generateMarkdown(data);
+    writeToFile("README.md", generateMarkdownResponse);
   });
 
-    const writeToFile = (fileName, data) => {
-      fs.writeFileSync(fileName, data)
-    };
-
-
-
+const writeToFile = (fileName, data) => {
+  fs.writeFileSync(fileName, data);
+};
 
 //function to initialize program
 // function init() {
