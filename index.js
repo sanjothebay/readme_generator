@@ -59,10 +59,14 @@ inquirer
     // );
     const generateMarkdownResponse = generateMarkdown(data);
     writeToFile("README.md", generateMarkdownResponse);
+    console.log(generateMarkdownResponse);
   });
 
 const writeToFile = (fileName, data) => {
-  fs.writeFileSync(fileName, data);
+  console.log(data);
+  fs.writeFile(fileName, data, ()=>{
+    console.log("File saved");
+  });
 };
 
 //function to initialize program
