@@ -6,7 +6,7 @@ https://github.com/sanjothebay/readme_generator_tech_monterrey_hw
 https://sanjothebay.github.io/readme_generator_tech_monterrey_hw/
 
 
-[readme_video.zip](https://github.com/sanjothebay/readme_generator_tech_monterrey_hw/files/5612982/readme_video.zip)
+[readme_video.zip](./Assets/readme_video1)
 
 The application will be invoked by using the following command:
 
@@ -14,8 +14,8 @@ The application will be invoked by using the following command:
 node index.js
 ```
 
-Creates a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package]
-(https://www.npmjs.com/package/inquirer).
+Creates a command-line application that dynamically generates a professional README.md file from a user's input using the 
+[Inquirer package](https://www.npmjs.com/package/inquirer).
 
 ## link to Tutorial:
 
