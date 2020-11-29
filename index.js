@@ -57,18 +57,18 @@ inquirer
     // fs.writeFile( JSON.stringify("README.md", generateMarkdown(data)), (err) =>
     //   err ? console.log(err) : console.log("RADME.md Created!")
     // );
-    const generateMarkdownResponse = generateMarkdown(data);
+    let generateMarkdownResponse = generateMarkdown(data);
     writeToFile("README.md", generateMarkdownResponse);
     console.log(generateMarkdownResponse);
   });
 
-const writeToFile = (fileName, data) => {
+let writeToFile = (fileName, data) => {
   console.log(data);
-  fs.writeFile(fileName, data, ()=>{
+  fs.writeFile(fileName, data, () => {
     console.log("File saved");
+    console.log(data);
   });
 };
-
 //function to initialize program
 // function init() {
 
