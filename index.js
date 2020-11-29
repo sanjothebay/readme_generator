@@ -51,17 +51,14 @@ inquirer
     },
   ])
 
+  //function to initialize program/unction call to initialize program
   .then((data) => {
-    // const README = `${fileName, data.toLowerCase().split(' ').join('')}.json`;
     console.log(data);
-    // fs.writeFile( JSON.stringify("README.md", generateMarkdown(data)), (err) =>
-    //   err ? console.log(err) : console.log("RADME.md Created!")
-    // );
     let generateMarkdownResponse = generateMarkdown(data);
     writeToFile("README.md", generateMarkdownResponse);
     console.log(generateMarkdownResponse);
   });
-
+//Creation of README.md
 let writeToFile = (fileName, data) => {
   console.log(data);
   fs.writeFile(fileName, data, () => {
@@ -69,10 +66,3 @@ let writeToFile = (fileName, data) => {
     console.log(data);
   });
 };
-//function to initialize program
-// function init() {
-
-//   generateMarkdown(data)
-// }
-// // function call to initialize program
-// init();
