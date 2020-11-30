@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-
-   ## What is your GitHub UserName ✨ ❓
-   ### JC Rodriguez
-   - - -
-   ## What is your Email Address 📧 ❓
-   ### sanjothebay@gmail.com
-   - - -
-   ## What is your Your Projects Name 📃 ❓
-   ### README.md
-   - - -
-   ## Please Write A Short Description Of Your Project 📝
-   ### APACHE
-   - - -
-   ## What Command Should Be Run To Install Dependencies 🚀 ❓
-   ### npm i 
-   - - -
-   ## What Command Should Be Run To Test 🚀 ❓
-   ### node index.js
-   - - -
-   ## What Does The User Need To Know About Using This Repo 🔱 ❓
-   ### It Creates a new README.md
-   - - -
-   ## What Does The User Need To Know About Using Contributing To This Repo ✒️ ❓
-   ### Please email me. 
-   - - -
-=======
 # readme_generator_tech_monterrey_hw
 ## ReadMe Generator 
 
@@ -96,4 +69,3 @@ The Application Creates a new `README.md` . Its being created with the emoji`s t
 Over all The app is working well and fuctioning with no error`s . this was a good homework. 
 
 ![image](https://user-images.githubusercontent.com/67298961/100557837-221dbe80-3271-11eb-8c7c-7beaad495e17.png)
->>>>>>> afb55d6c64d4b644ca04f8dc5e2a6cfb81765c3b
