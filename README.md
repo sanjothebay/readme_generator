@@ -15,7 +15,7 @@ node index.js
 
 The application is using:
 
-* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 Creates a command-line application that dynamically generates a professional README.md file from a user's input using the 
 [Inquirer package](https://www.npmjs.com/package/inquirer).
@@ -54,17 +54,16 @@ this was done before installing any npm dependencies.
 
 * A walkthrough video that demonstrates the functionality of the README generator a link to the video is included.
 
+ ---
+ 
+This is where i Created a the array of questions and exported the packages to use for the application.
+I googled the markdown syntac for the read me to add in the `generatMarkdown.js` .
+The qustin were added the thrr file and exported.
+
+![image](https://user-images.githubusercontent.com/67298961/100557640-11b91400-3270-11eb-9e71-cf0bf7a6eb0f.png)
 
 
+The Application Creates a new `README.md` . Its being created with the emoji`s that were added fro an extra touch. 
+Over all The app is working well and fuctioning with no error`s . this was a good homework. 
 
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/67298961/100557837-221dbe80-3271-11eb-8c7c-7beaad495e17.png)
