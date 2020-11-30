@@ -20,6 +20,7 @@ node index.js
 The application is using:
 
 	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+The Inquirer Packet will need ot be exported you can do this by npm i 
 
 Creates a command-line application that dynamically generates a professional README.md file from a user's input using the 
 [Inquirer package](https://www.npmjs.com/package/inquirer).
