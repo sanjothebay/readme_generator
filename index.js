@@ -55,7 +55,8 @@ inquirer
   .then((data) => {
     console.log(data);
     let generateMarkdownResponse = generateMarkdown(data);
-    writeToFile("README.md", generateMarkdownResponse);
+    const readMeLicense = generateMarkdown(data);
+    writeToFile("README.md", readMeLicense, generateMarkdownResponse);
     console.log(generateMarkdownResponse);
   });
 //Creation of README.md

@@ -13,6 +13,7 @@ function generateMarkdown(data) {
    - - -
    ## Please Write A Short Description Of Your Project 📝
    ### ${data.description}
+   ${getLicenseBadge(data.license)}
    - - -
    ## What Command Should Be Run To Install Dependencies 🚀 ❓
    ### ${data.commandDependencies}
@@ -28,4 +29,9 @@ function generateMarkdown(data) {
    - - -
 `;
 }
+function getLicenseBadge(license) {
+  return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/${license})`;
+  
+}
+
 module.exports = generateMarkdown;
