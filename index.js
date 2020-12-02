@@ -25,8 +25,8 @@ inquirer
     {
       type: "rawlist",
       message: "Please Write A Short Description Of Your Project.",
-      name: "description",
-      choices: ["MIT", "APACHE", "GPL 3.0", "BSD 3", "OTHER", "NONE"],
+      name: "license",
+      choices: ["MIT", "Apache", "ISC", "GPL", "Zlib", "Unlicense"],
     },
     {
       type: "input",
