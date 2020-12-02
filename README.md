@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-
-   ## What is your GitHub UserName ✨ ❓
-   ### fjhgf
-   - - -
-   ## What is your Email Address 📧 ❓
-   ### jhgtferwe
-   - - -
-   ## What is your Your Projects Name 📃 ❓
-   ### 
-   - - -
-   ## Please Write A Short Description Of Your Project 📝
-   ### MIT
-   [![License: undefined](https://img.shields.io/badge/License-undefined-yellow.svg)](https://opensource.org/licenses/undefined)
-   - - -
-   ## What Command Should Be Run To Install Dependencies 🚀 ❓
-   ### tjhygfd
-   - - -
-   ## What Command Should Be Run To Test 🚀 ❓
-   ### tyhjk
-   - - -
-   ## What Does The User Need To Know About Using This Repo 🔱 ❓
-   ### trytujydk
-   - - -
-   ## What Does The User Need To Know About Using Contributing To This Repo ✒️ ❓
-   ### tgrhgnh
-   - - -
-=======
 # readme_generator_tech_monterrey_hw
 ## ReadMe Generator 
 
@@ -97,4 +69,3 @@ The Application Creates a new `README.md` . Its being created with the emoji's t
 Over all The app is working well and fuctioning with no error's . this was a good homework. 
 
 ![image](https://user-images.githubusercontent.com/67298961/100557837-221dbe80-3271-11eb-8c7c-7beaad495e17.png)
->>>>>>> 0fece7ff8640194b2c527d9f55ccf6c81da87cbb
